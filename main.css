@@ -2,6 +2,7 @@ body {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
+
 /*Section one*/
 .section_1 {
   background-color: #1f2937;
@@ -83,7 +84,6 @@ a {
 /*Section 2*/
 
 .section_2 {
-  font-family: 'Roboto', sans-serif;
   height: 500px;
   padding: 15px 70px;
 }
@@ -94,26 +94,29 @@ h1 {
   font-weight: bold;
 }
 
-.box,
-.subtext {
+.information_box,
+.information {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 6px;
+  flex-direction: row;
+  gap: 50px;
 }
 
 .box_1 {
   border: 5px solid royalblue;
   border-radius: 20px;
-  width: 150px;
+  width: 165px;
   height: 150px;
-  padding: 0px;
 }
 
-.subtext > p {
-  width: 150px;
-  align-self: center;
-  font-size: 18px;
-  padding: 0;
+.content {
+  width: 165px;
+  text-align: center;
+  gap: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
 }
 
 /*Section 3*/
@@ -121,30 +124,27 @@ h1 {
   background-color: #e5e7eb;
   height: 250px;
   padding: 15px 70px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .section_3 > :first-child {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
-  
+  text-align: justify;
+  font-weight: lighter;
 }
 
 .section_3 > :last-child {
   font-size: 22px;
   font-weight: bold;
-  align-self: flex-end;
-  margin: 0;
+  text-align: center;
 }
 
 .inspiring_quote {
-width: 850px;
-font-weight: 300px;
-font-style: italic;
+  width: 850px;
 }
+
+/*Section 4*/
 
 .sectction_4 {
   height: 300px;
