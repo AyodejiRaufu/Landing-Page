@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 6px;
+  
 }
 
 ul {
@@ -124,25 +125,30 @@ h1 {
   background-color: #e5e7eb;
   height: 250px;
   padding: 15px 70px;
-}
-
-.section_3 > :first-child {
-  font-size: 36px;
-  font-style: italic;
-  color: #1f2937;
-  text-align: justify;
-  font-weight: lighter;
-}
-
-.section_3 > :last-child {
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .inspiring_quote {
-  width: 850px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  width: 700px;
+  align-self: flex-start;
+  margin: auto;
 }
+
+.author{
+  font-size: 22px;
+  font-weight: 900;
+  text-align: right;
+  width: 700px;
+  margin: auto;
+  
+}
+
+
 
 /*Section 4*/
 
